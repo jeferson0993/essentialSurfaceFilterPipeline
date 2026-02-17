@@ -1,4 +1,24 @@
-### ▶️ Como Executar
+#### 📁 Estrutura do Projeto
+```sh
+phase2-essential-surface-filter/
+│
+├── app/
+│   ├── pipeline.py
+│   ├── deg_utils.py
+│   ├── localization_utils.py
+│   ├── config.py
+│
+├── data/          # input fasta aqui
+├── results/
+│
+├── Dockerfile
+├── requirements.txt
+├── docker-compose.yml
+└── README.md
+
+```
+
+#### ▶️ Como Executar
 - 1️⃣ Coloque o input aqui:
 `data/ecoli_nonredundant.fasta`
 
